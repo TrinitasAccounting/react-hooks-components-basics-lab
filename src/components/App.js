@@ -1,4 +1,5 @@
 import React from "react";
+import About from './About/About.component';
 
 function NavBar() {
   return (
@@ -16,7 +17,7 @@ function Home() {
   );
 }
 
-{/* write an <About> component here */}
+{/* write an <About> component here */ }
 
 
 function App() {
@@ -24,7 +25,9 @@ function App() {
     <div>
       <NavBar />
       {/* add the <Home> component here */}
+      <Home />
       {/* add your <About> component here */}
+      <About />
     </div>
   );
 }
